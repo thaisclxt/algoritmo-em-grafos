@@ -17,7 +17,7 @@ def ordenacao_topologica(grafo):
         if no not in visitados:
             busca_em_profundidade(no)
 
-    for x in permutations(pilha[::1]):
+    for x in pilha[::1]:
         yield list(x)
         
 
