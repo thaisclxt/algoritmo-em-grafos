@@ -9,8 +9,5 @@ def entrada_do_usuario():
         aresta = input(f"Digite a aresta {i+1} no formato 'origem destino1 destino2 ...': ")
         origem, *destinos = aresta.split()
         grafo[origem] = destinos
-
-
-    print(grafo)
     return grafo
 
