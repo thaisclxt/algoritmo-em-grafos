@@ -21,4 +21,5 @@ def verificacao_grafo_aciclico(grafo):
             if busca_em_profundidade(no):
                 return True
 
+    print(f'nos visitados{nos_visitados}')
     return False

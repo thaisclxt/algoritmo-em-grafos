@@ -27,7 +27,7 @@ if __name__ == '__main__':
     grafo = entrada_do_usuario()
 
     if verificacao_grafo_aciclico(grafo):
-        print("O grafo contém ciclos")
+        print("O grafo contém ciclos, logo não sera possivel de realizr o processo de ordenação topologica")
     else:
         print("O grafo é acíclico")
         for order in ordenacao_topologica(grafo):
